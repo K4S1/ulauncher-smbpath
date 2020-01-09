@@ -11,7 +11,7 @@ def to_linux_path(path):
 
 
 def is_windows_path(path):
-    return path.startswith('\\\\')
+    return path.startswith('\\')
 
 
 def to_windows_path(path):
