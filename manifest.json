@@ -12,7 +12,6 @@
         "id": "keyword",
         "type": "keyword",
         "name": "samba path converter",
-        "description": "keyword to activate this plugin",
         "default_value": "sp"
       }
     ]
