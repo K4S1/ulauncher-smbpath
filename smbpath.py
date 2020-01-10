@@ -6,7 +6,7 @@ def is_linux_path(path):
 
 
 def to_linux_path(path):
-    path = 'smb://'+path[2:]
+    path = 'smb://'+path[1:]
     return path.replace('\\', '/')
 
 
